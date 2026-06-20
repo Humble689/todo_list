@@ -96,6 +96,8 @@ $data= mysqli_fetch_all($result, MYSQLI_ASSOC);
 </td>
       <td>
         <a href="deletecontroller.php?id=<?= $row['id']; ?>"> Delete</a>
+&nbsp; &nbsp;
+        <a href="updatepage.php?id=<?= $row['id'] ?>">update</a>
       </td>
 
       
